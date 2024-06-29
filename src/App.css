@@ -1,0 +1,48 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  background-color: #9c9a9a;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.inputs{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image-gallery-thumbnail img { 
+  height: 100px;
+  object-fit: cover;
+}
+.cont{
+  margin-top: -20px;
+  max-width: 800px;
+  margin-left: 450px;
+  padding: 20px;
+}
+.image-gallery {
+  max-width: 100%; 
+}
+
+.image-gallery-image {
+  max-height: 400px; 
+}
